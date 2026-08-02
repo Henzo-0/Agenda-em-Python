@@ -138,6 +138,8 @@ while True:
             break
         elif resposta == '3':
             print('Saindo...')
+            sleep(1)
+            print('Até mais')
             exit()
         elif resposta not in ['1', '2', '3']:
             print('Opção inválida! Tente novamente.')
